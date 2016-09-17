@@ -1,0 +1,6 @@
+This repo is a backup from https://github.com/HPCE/hpce-2015-cw2/issues/6
+
+It could be compiled on Cygwin.
+
+$ ./configure --enable-static --disable-shared
+$ make -j 8 && make install
